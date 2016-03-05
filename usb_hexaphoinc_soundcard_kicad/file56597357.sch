@@ -1,0 +1,1015 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:alex
+LIBS:CS5366
+LIBS:adc-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 4 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R_American_small R22
+U 1 1 56597810
+P 4500 2550
+AR Path="/565D7D19/56597810" Ref="R22"  Part="1" 
+AR Path="/565D7E0D/56597810" Ref="R23"  Part="1" 
+AR Path="/565D9A70/56597810" Ref="R24"  Part="1" 
+F 0 "R23" H 4500 2700 60  0000 C CNN
+F 1 "91R" H 4500 2625 60  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4500 2750 60  0001 C CNN
+F 3 "" H 4500 2750 60  0000 C CNN
+F 4 "RT0603DRE0791RL" H 4600 2450 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 4500 2550 60  0001 C CNN "manufacturer"
+	1    4500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_American_small R17
+U 1 1 565978A7
+P 3800 3400
+AR Path="/565D7D19/565978A7" Ref="R17"  Part="1" 
+AR Path="/565D7E0D/565978A7" Ref="R16"  Part="1" 
+AR Path="/565D9A70/565978A7" Ref="R18"  Part="1" 
+F 0 "R16" H 3650 3500 60  0000 C CNN
+F 1 "634R" H 3600 3600 60  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 3800 3600 60  0001 C CNN
+F 3 "" H 3800 3600 60  0000 C CNN
+F 4 "RR0816P-6340-D-78A" H 3800 3650 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 3800 3400 60  0001 C CNN "manufacturer"
+	1    3800 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C20
+U 1 1 5659793A
+P 3800 3100
+AR Path="/565D7D19/5659793A" Ref="C20"  Part="1" 
+AR Path="/565D7E0D/5659793A" Ref="C19"  Part="1" 
+AR Path="/565D9A70/5659793A" Ref="C21"  Part="1" 
+F 0 "C21" V 3900 3200 50  0000 L CNN
+F 1 "470pF" V 4000 3200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3800 3100 60  0001 C CNN
+F 3 "" H 3800 3100 60  0000 C CNN
+F 4 "GRM1885C1H471JA01D" H 3800 3100 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 3800 3100 60  0001 C CNN "manufacturer"
+	1    3800 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C40
+U 1 1 565979A6
+P 4750 3900
+AR Path="/565D7D19/565979A6" Ref="C40"  Part="1" 
+AR Path="/565D7E0D/565979A6" Ref="C38"  Part="1" 
+AR Path="/565D9A70/565979A6" Ref="C39"  Part="1" 
+F 0 "C40" H 4760 3970 50  0000 L CNN
+F 1 "2700pF" H 4760 3820 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4750 3900 60  0001 C CNN
+F 3 "" H 4750 3900 60  0000 C CNN
+F 4 "GRM1885C1H272JA01D" H 4750 3900 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 4750 3900 60  0001 C CNN "manufacturer"
+	1    4750 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_American_small R9
+U 1 1 56597A42
+P 3050 2700
+AR Path="/565D7D19/56597A42" Ref="R9"  Part="1" 
+AR Path="/565D7E0D/56597A42" Ref="R8"  Part="1" 
+AR Path="/565D9A70/56597A42" Ref="R10"  Part="1" 
+F 0 "R8" H 3050 2850 60  0000 C CNN
+F 1 "10k" H 3050 2775 60  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 3050 2900 60  0001 C CNN
+F 3 "" H 3050 2900 60  0000 C CNN
+F 4 "RR0816P-103-D" H 3100 2550 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 3050 2700 60  0001 C CNN "manufacturer"
+	1    3050 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GNDA #PWR41
+U 1 1 56597DFA
+P 3800 2850
+AR Path="/565D7D19/56597DFA" Ref="#PWR41"  Part="1" 
+AR Path="/565D7E0D/56597DFA" Ref="#PWR40"  Part="1" 
+AR Path="/565D9A70/56597DFA" Ref="#PWR39"  Part="1" 
+F 0 "#PWR41" H 3800 2600 50  0001 C CNN
+F 1 "GNDA" H 3800 2700 50  0000 C CNN
+F 2 "" H 3800 2850 60  0000 C CNN
+F 3 "" H 3800 2850 60  0000 C CNN
+	1    3800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L VA #PWR37
+U 1 1 56597E2A
+P 3800 1800
+AR Path="/565D7D19/56597E2A" Ref="#PWR37"  Part="1" 
+AR Path="/565D7E0D/56597E2A" Ref="#PWR36"  Part="1" 
+AR Path="/565D9A70/56597E2A" Ref="#PWR38"  Part="1" 
+F 0 "#PWR38" H 3800 1650 50  0001 C CNN
+F 1 "VA" H 3800 1950 50  0000 C CNN
+F 2 "" H 3800 1800 60  0000 C CNN
+F 3 "" H 3800 1800 60  0000 C CNN
+	1    3800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C26
+U 1 1 56597E72
+P 4150 2000
+AR Path="/565D7D19/56597E72" Ref="C26"  Part="1" 
+AR Path="/565D7E0D/56597E72" Ref="C28"  Part="1" 
+AR Path="/565D9A70/56597E72" Ref="C27"  Part="1" 
+F 0 "C28" H 4160 2070 50  0000 L CNN
+F 1 "100nF" H 4160 1920 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4150 2000 60  0001 C CNN
+F 3 "" H 4150 2000 60  0000 C CNN
+F 4 "C0603C104K3RACTU" H 3750 2000 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 4150 2000 60  0001 C CNN "manufacturer"
+	1    4150 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDA #PWR42
+U 1 1 56597ED0
+P 4150 2200
+AR Path="/565D7D19/56597ED0" Ref="#PWR42"  Part="1" 
+AR Path="/565D7E0D/56597ED0" Ref="#PWR43"  Part="1" 
+AR Path="/565D9A70/56597ED0" Ref="#PWR44"  Part="1" 
+F 0 "#PWR44" H 4150 1950 50  0001 C CNN
+F 1 "GNDA" H 4150 2050 50  0000 C CNN
+F 2 "" H 4150 2200 60  0000 C CNN
+F 3 "" H 4150 2200 60  0000 C CNN
+	1    4150 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_American_small R3
+U 1 1 56598048
+P 2450 2700
+AR Path="/565D7D19/56598048" Ref="R3"  Part="1" 
+AR Path="/565D7E0D/56598048" Ref="R4"  Part="1" 
+AR Path="/565D9A70/56598048" Ref="R2"  Part="1" 
+F 0 "R3" H 2450 2850 60  0000 C CNN
+F 1 "100k" H 2450 2775 60  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 2450 2900 60  0001 C CNN
+F 3 "" H 2450 2900 60  0000 C CNN
+F 4 "RR0816P-104-D" H 2050 2900 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 2450 2700 60  0001 C CNN "manufacturer"
+	1    2450 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPA1654AIPWR U5
+U 1 1 56598494
+P 3850 2550
+AR Path="/565D7D19/56598494" Ref="U5"  Part="1" 
+AR Path="/565D7E0D/56598494" Ref="U3"  Part="1" 
+AR Path="/565D9A70/56598494" Ref="U4"  Part="1" 
+F 0 "U4" H 3900 2400 60  0000 L CNN
+F 1 "OPA1654" H 3800 2250 60  0000 L CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3850 2550 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/405/opa1654-443342.pdf" H 3850 2550 60  0001 C CNN
+F 4 "OPA1654AIPWR" H 3850 2550 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 3850 2550 60  0001 C CNN "manufacturer"
+	1    3850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR15
+U 1 1 56598B2A
+P 2450 2800
+AR Path="/565D7D19/56598B2A" Ref="#PWR15"  Part="1" 
+AR Path="/565D7E0D/56598B2A" Ref="#PWR16"  Part="1" 
+AR Path="/565D9A70/56598B2A" Ref="#PWR14"  Part="1" 
+F 0 "#PWR16" H 2450 2550 50  0001 C CNN
+F 1 "GNDA" H 2450 2650 50  0000 C CNN
+F 2 "" H 2450 2800 60  0000 C CNN
+F 3 "" H 2450 2800 60  0000 C CNN
+	1    2450 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2450 2800 2450
+Wire Wire Line
+	3050 2600 3050 2450
+Connection ~ 3050 2450
+$Comp
+L C_Small C12
+U 1 1 56598CE9
+P 2850 2950
+AR Path="/565D7D19/56598CE9" Ref="C12"  Part="1" 
+AR Path="/565D7E0D/56598CE9" Ref="C10"  Part="1" 
+AR Path="/565D9A70/56598CE9" Ref="C11"  Part="1" 
+F 0 "C10" H 2860 3020 50  0000 L CNN
+F 1 "100nF" H 2860 2870 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2850 2950 60  0001 C CNN
+F 3 "" H 2850 2950 60  0000 C CNN
+F 4 "C0603C104K3RACTU" H 2450 2950 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 2850 2950 60  0001 C CNN "manufacturer"
+	1    2850 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDA #PWR25
+U 1 1 56598EDA
+P 2850 3050
+AR Path="/565D7D19/56598EDA" Ref="#PWR25"  Part="1" 
+AR Path="/565D7E0D/56598EDA" Ref="#PWR26"  Part="1" 
+AR Path="/565D9A70/56598EDA" Ref="#PWR27"  Part="1" 
+F 0 "#PWR27" H 2850 2800 50  0001 C CNN
+F 1 "GNDA" H 2850 2900 50  0000 C CNN
+F 2 "" H 2850 3050 60  0000 C CNN
+F 3 "" H 2850 3050 60  0000 C CNN
+	1    2850 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2850 3050 2850
+Wire Wire Line
+	3050 2800 3050 3850
+Wire Wire Line
+	3050 2900 3150 2900
+Connection ~ 3050 2850
+Wire Wire Line
+	2450 2600 2450 2450
+Wire Wire Line
+	2050 2450 2600 2450
+Connection ~ 2450 2450
+Wire Wire Line
+	3550 2650 3450 2650
+Wire Wire Line
+	3450 2650 3450 3400
+Wire Wire Line
+	3450 3400 3700 3400
+Wire Wire Line
+	3700 3100 3450 3100
+Connection ~ 3450 3100
+Wire Wire Line
+	4150 2550 4400 2550
+Wire Wire Line
+	3900 3100 4200 3100
+Wire Wire Line
+	4200 3100 4200 2550
+Connection ~ 4200 2550
+Wire Wire Line
+	3900 3400 4750 3400
+Wire Wire Line
+	4750 2550 4750 3800
+$Comp
+L R_American_small R25
+U 1 1 5659A066
+P 4500 4500
+AR Path="/565D7D19/5659A066" Ref="R25"  Part="1" 
+AR Path="/565D7E0D/5659A066" Ref="R27"  Part="1" 
+AR Path="/565D9A70/5659A066" Ref="R26"  Part="1" 
+F 0 "R25" H 4500 4650 60  0000 C CNN
+F 1 "91R" H 4500 4575 60  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 4500 4700 60  0001 C CNN
+F 3 "" H 4500 4700 60  0000 C CNN
+F 4 "RT0603DRE0791RL" H 4600 4400 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 4500 4500 60  0001 C CNN "manufacturer"
+	1    4500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_American_small R21
+U 1 1 5659A06E
+P 3800 5350
+AR Path="/565D7D19/5659A06E" Ref="R21"  Part="1" 
+AR Path="/565D7E0D/5659A06E" Ref="R19"  Part="1" 
+AR Path="/565D9A70/5659A06E" Ref="R20"  Part="1" 
+F 0 "R19" H 3650 5450 60  0000 C CNN
+F 1 "634R" H 3600 5550 60  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 3800 5550 60  0001 C CNN
+F 3 "" H 3800 5550 60  0000 C CNN
+F 4 "RR0816P-6340-D-78A" H 3800 5600 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 3800 5350 60  0001 C CNN "manufacturer"
+	1    3800 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C23
+U 1 1 5659A076
+P 3800 5050
+AR Path="/565D7D19/5659A076" Ref="C23"  Part="1" 
+AR Path="/565D7E0D/5659A076" Ref="C22"  Part="1" 
+AR Path="/565D9A70/5659A076" Ref="C24"  Part="1" 
+F 0 "C24" V 3900 5150 50  0000 L CNN
+F 1 "470pF" V 4000 5150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3800 5050 60  0001 C CNN
+F 3 "" H 3800 5050 60  0000 C CNN
+F 4 "GRM1885C1H471JA01D" H 3800 5050 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 3800 5050 60  0001 C CNN "manufacturer"
+	1    3800 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L R_American_small R13
+U 1 1 5659A07E
+P 3050 3950
+AR Path="/565D7D19/5659A07E" Ref="R13"  Part="1" 
+AR Path="/565D7E0D/5659A07E" Ref="R12"  Part="1" 
+AR Path="/565D9A70/5659A07E" Ref="R11"  Part="1" 
+F 0 "R13" H 3050 4100 60  0000 C CNN
+F 1 "10k" H 3050 4025 60  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 3050 4150 60  0001 C CNN
+F 3 "" H 3050 4150 60  0000 C CNN
+F 4 "RR0816P-103-D" H 3100 3800 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 3050 3950 60  0001 C CNN "manufacturer"
+	1    3050 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_American_small R6
+U 1 1 5659A0A4
+P 2450 4650
+AR Path="/565D7D19/5659A0A4" Ref="R6"  Part="1" 
+AR Path="/565D7E0D/5659A0A4" Ref="R7"  Part="1" 
+AR Path="/565D9A70/5659A0A4" Ref="R5"  Part="1" 
+F 0 "R7" H 2450 4800 60  0000 C CNN
+F 1 "100k" H 2450 4725 60  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 2450 4850 60  0001 C CNN
+F 3 "" H 2450 4850 60  0000 C CNN
+F 4 "RR0816P-104-D" H 2050 4850 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 2450 4650 60  0001 C CNN "manufacturer"
+	1    2450 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPA1654AIPWR U5
+U 2 1 5659A0AC
+P 3850 4500
+AR Path="/565D7D19/5659A0AC" Ref="U5"  Part="2" 
+AR Path="/565D7E0D/5659A0AC" Ref="U3"  Part="2" 
+AR Path="/565D9A70/5659A0AC" Ref="U4"  Part="2" 
+F 0 "U4" H 3900 4350 60  0000 L CNN
+F 1 "OPA1654" H 3800 4200 60  0000 L CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3850 4500 60  0001 C CNN
+F 3 "" H 3850 4500 60  0000 C CNN
+F 4 "OPA1654AIPWR" H 3850 4500 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 3850 4500 60  0001 C CNN "manufacturer"
+	2    3850 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C8
+U 1 1 5659A0B5
+P 2700 4400
+AR Path="/565D7D19/5659A0B5" Ref="C8"  Part="1" 
+AR Path="/565D7E0D/5659A0B5" Ref="C7"  Part="1" 
+AR Path="/565D9A70/5659A0B5" Ref="C9"  Part="1" 
+F 0 "C7" H 2710 4470 50  0000 L CNN
+F 1 "10uF" H 2710 4320 50  0000 L CNN
+F 2 "Capacitors_SMD:c_elec_4x4.5" H 2700 4400 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/293/e-wj-18973.pdf" H 2700 4400 60  0001 C CNN
+F 4 "UWJ1C100MCL1GB" H 2350 4400 60  0001 C CNN "Pt. Num"
+F 5 "Nichicon" H 2700 4400 60  0001 C CNN "manufacturer"
+F 6 "Aluminum Electrolytic Capacitors - SMD 16volts 10uF 4x5.4" H 2700 4400 60  0001 C CNN "Description"
+	1    2700 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDA #PWR17
+U 1 1 5659A0BB
+P 2450 4800
+AR Path="/565D7D19/5659A0BB" Ref="#PWR17"  Part="1" 
+AR Path="/565D7E0D/5659A0BB" Ref="#PWR19"  Part="1" 
+AR Path="/565D9A70/5659A0BB" Ref="#PWR18"  Part="1" 
+F 0 "#PWR19" H 2450 4550 50  0001 C CNN
+F 1 "GNDA" H 2450 4650 50  0000 C CNN
+F 2 "" H 2450 4800 60  0000 C CNN
+F 3 "" H 2450 4800 60  0000 C CNN
+	1    2450 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 4400 2800 4400
+Connection ~ 3050 4400
+Wire Wire Line
+	2450 4550 2450 4400
+Wire Wire Line
+	2050 4400 2600 4400
+Connection ~ 2450 4400
+Wire Wire Line
+	3550 4600 3450 4600
+Wire Wire Line
+	3450 4600 3450 5350
+Wire Wire Line
+	3450 5350 3700 5350
+Wire Wire Line
+	3700 5050 3450 5050
+Connection ~ 3450 5050
+Wire Wire Line
+	4150 4500 4400 4500
+Wire Wire Line
+	3900 5050 4200 5050
+Wire Wire Line
+	4200 5050 4200 4500
+Connection ~ 4200 4500
+Wire Wire Line
+	4750 5350 3900 5350
+Wire Wire Line
+	4750 2550 4600 2550
+Connection ~ 4750 3400
+Wire Wire Line
+	4750 4500 4600 4500
+Connection ~ 4750 4500
+Wire Wire Line
+	4750 3550 5150 3550
+Connection ~ 4750 3550
+Wire Wire Line
+	4750 4250 5150 4250
+Connection ~ 4750 4250
+Wire Wire Line
+	4750 4000 4750 5350
+Text HLabel 5150 4250 2    60   Input ~ 0
+ADC_A+
+Text HLabel 5150 3550 2    60   Input ~ 0
+ADC_A-
+Text HLabel 2050 4400 0    60   Input ~ 0
+IN_A+
+Text HLabel 2050 2450 0    60   Input ~ 0
+IN_A-
+$Comp
+L R_American_small R50
+U 1 1 5659BF14
+P 8400 2550
+AR Path="/565D7D19/5659BF14" Ref="R50"  Part="1" 
+AR Path="/565D7E0D/5659BF14" Ref="R49"  Part="1" 
+AR Path="/565D9A70/5659BF14" Ref="R51"  Part="1" 
+F 0 "R51" H 8400 2700 60  0000 C CNN
+F 1 "91R" H 8400 2625 60  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 8400 2750 60  0001 C CNN
+F 3 "" H 8400 2750 60  0000 C CNN
+F 4 "RT0603DRE0791RL" H 8500 2450 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 8400 2550 60  0001 C CNN "manufacturer"
+	1    8400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_American_small R45
+U 1 1 5659BF1C
+P 7700 3400
+AR Path="/565D7D19/5659BF1C" Ref="R45"  Part="1" 
+AR Path="/565D7E0D/5659BF1C" Ref="R44"  Part="1" 
+AR Path="/565D9A70/5659BF1C" Ref="R43"  Part="1" 
+F 0 "R43" H 7550 3500 60  0000 C CNN
+F 1 "634R" H 7500 3600 60  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 7700 3600 60  0001 C CNN
+F 3 "" H 7700 3600 60  0000 C CNN
+F 4 "RR0816P-6340-D-78A" H 7700 3650 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 7700 3400 60  0001 C CNN "manufacturer"
+	1    7700 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C66
+U 1 1 5659BF24
+P 7700 3100
+AR Path="/565D7D19/5659BF24" Ref="C66"  Part="1" 
+AR Path="/565D7E0D/5659BF24" Ref="C65"  Part="1" 
+AR Path="/565D9A70/5659BF24" Ref="C67"  Part="1" 
+F 0 "C67" V 7800 3200 50  0000 L CNN
+F 1 "470pF" V 7900 3200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7700 3100 60  0001 C CNN
+F 3 "" H 7700 3100 60  0000 C CNN
+F 4 "GRM1885C1H471JA01D" H 7700 3100 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 7700 3100 60  0001 C CNN "manufacturer"
+	1    7700 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C74
+U 1 1 5659BF2C
+P 8650 3900
+AR Path="/565D7D19/5659BF2C" Ref="C74"  Part="1" 
+AR Path="/565D7E0D/5659BF2C" Ref="C75"  Part="1" 
+AR Path="/565D9A70/5659BF2C" Ref="C76"  Part="1" 
+F 0 "C74" H 8660 3970 50  0000 L CNN
+F 1 "2700pF" H 8660 3820 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8650 3900 60  0001 C CNN
+F 3 "" H 8650 3900 60  0000 C CNN
+F 4 "GRM1885C1H272JA01D" H 8650 3900 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 8650 3900 60  0001 C CNN "manufacturer"
+	1    8650 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_American_small R39
+U 1 1 5659BF34
+P 6950 2700
+AR Path="/565D7D19/5659BF34" Ref="R39"  Part="1" 
+AR Path="/565D7E0D/5659BF34" Ref="R38"  Part="1" 
+AR Path="/565D9A70/5659BF34" Ref="R37"  Part="1" 
+F 0 "R39" H 6950 2850 60  0000 C CNN
+F 1 "10k" H 6950 2775 60  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 6950 2900 60  0001 C CNN
+F 3 "" H 6950 2900 60  0000 C CNN
+F 4 "RR0816P-103-D" H 7000 2550 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 6950 2700 60  0001 C CNN "manufacturer"
+	1    6950 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_American_small R32
+U 1 1 5659BF5A
+P 6350 2700
+AR Path="/565D7D19/5659BF5A" Ref="R32"  Part="1" 
+AR Path="/565D7E0D/5659BF5A" Ref="R31"  Part="1" 
+AR Path="/565D9A70/5659BF5A" Ref="R33"  Part="1" 
+F 0 "R33" H 6350 2850 60  0000 C CNN
+F 1 "100k" H 6350 2775 60  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 6350 2900 60  0001 C CNN
+F 3 "" H 6350 2900 60  0000 C CNN
+F 4 "RR0816P-104-D" H 5950 2900 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 6350 2700 60  0001 C CNN "manufacturer"
+	1    6350 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPA1654AIPWR U5
+U 3 1 5659BF62
+P 7750 2550
+AR Path="/565D7D19/5659BF62" Ref="U5"  Part="3" 
+AR Path="/565D7E0D/5659BF62" Ref="U3"  Part="3" 
+AR Path="/565D9A70/5659BF62" Ref="U4"  Part="3" 
+F 0 "U5" H 7800 2400 60  0000 L CNN
+F 1 "OPA1654" H 7700 2250 60  0000 L CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 7750 2550 60  0001 C CNN
+F 3 "" H 7750 2550 60  0000 C CNN
+F 4 "OPA1654AIPWR" H 7750 2550 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 7750 2550 60  0001 C CNN "manufacturer"
+	3    7750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C54
+U 1 1 5659BF6B
+P 6600 2450
+AR Path="/565D7D19/5659BF6B" Ref="C54"  Part="1" 
+AR Path="/565D7E0D/5659BF6B" Ref="C55"  Part="1" 
+AR Path="/565D9A70/5659BF6B" Ref="C56"  Part="1" 
+F 0 "C56" H 6610 2520 50  0000 L CNN
+F 1 "10uF" H 6610 2370 50  0000 L CNN
+F 2 "Capacitors_SMD:c_elec_4x4.5" H 6600 2450 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/293/e-wj-18973.pdf" H 6600 2450 60  0001 C CNN
+F 4 "UWJ1C100MCL1GB" H 6250 2450 60  0001 C CNN "Pt. Num"
+F 5 "Nichicon" H 6600 2450 60  0001 C CNN "manufacturer"
+F 6 "Aluminum Electrolytic Capacitors - SMD 16volts 10uF 4x5.4" H 6600 2450 60  0001 C CNN "Description"
+	1    6600 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDA #PWR61
+U 1 1 5659BF71
+P 6350 2800
+AR Path="/565D7D19/5659BF71" Ref="#PWR61"  Part="1" 
+AR Path="/565D7E0D/5659BF71" Ref="#PWR60"  Part="1" 
+AR Path="/565D9A70/5659BF71" Ref="#PWR62"  Part="1" 
+F 0 "#PWR62" H 6350 2550 50  0001 C CNN
+F 1 "GNDA" H 6350 2650 50  0000 C CNN
+F 2 "" H 6350 2800 60  0000 C CNN
+F 3 "" H 6350 2800 60  0000 C CNN
+	1    6350 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 2450 6700 2450
+Wire Wire Line
+	6950 2600 6950 2450
+Connection ~ 6950 2450
+$Comp
+L C_Small C63
+U 1 1 5659BF7D
+P 6750 2950
+AR Path="/565D7D19/5659BF7D" Ref="C63"  Part="1" 
+AR Path="/565D7E0D/5659BF7D" Ref="C61"  Part="1" 
+AR Path="/565D9A70/5659BF7D" Ref="C62"  Part="1" 
+F 0 "C63" H 6760 3020 50  0000 L CNN
+F 1 "100nF" H 6760 2870 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6750 2950 60  0001 C CNN
+F 3 "" H 6750 2950 60  0000 C CNN
+F 4 "C0603C104K3RACTU" H 6350 2950 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 6750 2950 60  0001 C CNN "manufacturer"
+	1    6750 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDA #PWR71
+U 1 1 5659BF83
+P 6750 3050
+AR Path="/565D7D19/5659BF83" Ref="#PWR71"  Part="1" 
+AR Path="/565D7E0D/5659BF83" Ref="#PWR69"  Part="1" 
+AR Path="/565D9A70/5659BF83" Ref="#PWR70"  Part="1" 
+F 0 "#PWR71" H 6750 2800 50  0001 C CNN
+F 1 "GNDA" H 6750 2900 50  0000 C CNN
+F 2 "" H 6750 3050 60  0000 C CNN
+F 3 "" H 6750 3050 60  0000 C CNN
+	1    6750 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2850 6950 2850
+Wire Wire Line
+	6950 2800 6950 3700
+Wire Wire Line
+	6950 2900 7050 2900
+Connection ~ 6950 2850
+Wire Wire Line
+	6350 2600 6350 2450
+Wire Wire Line
+	5950 2450 6500 2450
+Connection ~ 6350 2450
+Wire Wire Line
+	7450 2650 7350 2650
+Wire Wire Line
+	7350 2650 7350 3400
+Wire Wire Line
+	7350 3400 7600 3400
+Wire Wire Line
+	7600 3100 7350 3100
+Connection ~ 7350 3100
+Wire Wire Line
+	8050 2550 8300 2550
+Wire Wire Line
+	7800 3100 8100 3100
+Wire Wire Line
+	8100 3100 8100 2550
+Connection ~ 8100 2550
+Wire Wire Line
+	7800 3400 8650 3400
+Wire Wire Line
+	8650 2550 8650 3800
+$Comp
+L R_American_small R53
+U 1 1 5659BF9D
+P 8400 4500
+AR Path="/565D7D19/5659BF9D" Ref="R53"  Part="1" 
+AR Path="/565D7E0D/5659BF9D" Ref="R52"  Part="1" 
+AR Path="/565D9A70/5659BF9D" Ref="R54"  Part="1" 
+F 0 "R53" H 8400 4650 60  0000 C CNN
+F 1 "91R" H 8400 4575 60  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 8400 4700 60  0001 C CNN
+F 3 "" H 8400 4700 60  0000 C CNN
+F 4 "RT0603DRE0791RL" H 8500 4400 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 8400 4500 60  0001 C CNN "manufacturer"
+	1    8400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_American_small R46
+U 1 1 5659BFA5
+P 7700 5350
+AR Path="/565D7D19/5659BFA5" Ref="R46"  Part="1" 
+AR Path="/565D7E0D/5659BFA5" Ref="R48"  Part="1" 
+AR Path="/565D9A70/5659BFA5" Ref="R47"  Part="1" 
+F 0 "R46" H 7550 5450 60  0000 C CNN
+F 1 "634R" H 7500 5550 60  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 7700 5550 60  0001 C CNN
+F 3 "" H 7700 5550 60  0000 C CNN
+F 4 "RR0816P-6340-D-78A" H 7700 5600 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 7700 5350 60  0001 C CNN "manufacturer"
+	1    7700 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C69
+U 1 1 5659BFAD
+P 7700 5050
+AR Path="/565D7D19/5659BFAD" Ref="C69"  Part="1" 
+AR Path="/565D7E0D/5659BFAD" Ref="C68"  Part="1" 
+AR Path="/565D9A70/5659BFAD" Ref="C70"  Part="1" 
+F 0 "C68" V 7800 5150 50  0000 L CNN
+F 1 "470pF" V 7900 5150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7700 5050 60  0001 C CNN
+F 3 "" H 7700 5050 60  0000 C CNN
+F 4 "GRM1885C1H471JA01D" H 7700 5050 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 7700 5050 60  0001 C CNN "manufacturer"
+	1    7700 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L R_American_small R42
+U 1 1 5659BFB5
+P 6950 3800
+AR Path="/565D7D19/5659BFB5" Ref="R42"  Part="1" 
+AR Path="/565D7E0D/5659BFB5" Ref="R41"  Part="1" 
+AR Path="/565D9A70/5659BFB5" Ref="R40"  Part="1" 
+F 0 "R41" H 6950 3950 60  0000 C CNN
+F 1 "10k" H 6950 3875 60  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 6950 4000 60  0001 C CNN
+F 3 "" H 6950 4000 60  0000 C CNN
+F 4 "RR0816P-103-D" H 7000 3650 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 6950 3800 60  0001 C CNN "manufacturer"
+	1    6950 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_American_small R34
+U 1 1 5659BFDB
+P 6350 4650
+AR Path="/565D7D19/5659BFDB" Ref="R34"  Part="1" 
+AR Path="/565D7E0D/5659BFDB" Ref="R36"  Part="1" 
+AR Path="/565D9A70/5659BFDB" Ref="R35"  Part="1" 
+F 0 "R34" H 6350 4800 60  0000 C CNN
+F 1 "100k" H 6350 4725 60  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 6350 4850 60  0001 C CNN
+F 3 "" H 6350 4850 60  0000 C CNN
+F 4 "RR0816P-104-D" H 5950 4850 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 6350 4650 60  0001 C CNN "manufacturer"
+	1    6350 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPA1654AIPWR U5
+U 4 1 5659BFE3
+P 7750 4500
+AR Path="/565D7D19/5659BFE3" Ref="U5"  Part="4" 
+AR Path="/565D7E0D/5659BFE3" Ref="U3"  Part="4" 
+AR Path="/565D9A70/5659BFE3" Ref="U4"  Part="4" 
+F 0 "U5" H 7800 4350 60  0000 L CNN
+F 1 "OPA1654" H 7700 4200 60  0000 L CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 7750 4500 60  0001 C CNN
+F 3 "" H 7750 4500 60  0000 C CNN
+F 4 "OPA1654AIPWR" H 7750 4500 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 7750 4500 60  0001 C CNN "manufacturer"
+	4    7750 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C59
+U 1 1 5659BFEC
+P 6600 4400
+AR Path="/565D7D19/5659BFEC" Ref="C59"  Part="1" 
+AR Path="/565D7E0D/5659BFEC" Ref="C57"  Part="1" 
+AR Path="/565D9A70/5659BFEC" Ref="C58"  Part="1" 
+F 0 "C58" H 6610 4470 50  0000 L CNN
+F 1 "10uF" H 6610 4320 50  0000 L CNN
+F 2 "Capacitors_SMD:c_elec_4x4.5" H 6600 4400 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/293/e-wj-18973.pdf" H 6600 4400 60  0001 C CNN
+F 4 "UWJ1C100MCL1GB" H 6250 4400 60  0001 C CNN "Pt. Num"
+F 5 "Nichicon" H 6600 4400 60  0001 C CNN "manufacturer"
+F 6 "Aluminum Electrolytic Capacitors - SMD 16volts 10uF 4x5.4" H 6600 4400 60  0001 C CNN "Description"
+	1    6600 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDA #PWR65
+U 1 1 5659BFF2
+P 6350 4750
+AR Path="/565D7D19/5659BFF2" Ref="#PWR65"  Part="1" 
+AR Path="/565D7E0D/5659BFF2" Ref="#PWR64"  Part="1" 
+AR Path="/565D9A70/5659BFF2" Ref="#PWR63"  Part="1" 
+F 0 "#PWR65" H 6350 4500 50  0001 C CNN
+F 1 "GNDA" H 6350 4600 50  0000 C CNN
+F 2 "" H 6350 4750 60  0000 C CNN
+F 3 "" H 6350 4750 60  0000 C CNN
+	1    6350 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 4400 6700 4400
+Connection ~ 6950 4400
+Wire Wire Line
+	6350 4550 6350 4400
+Wire Wire Line
+	5950 4400 6500 4400
+Connection ~ 6350 4400
+Wire Wire Line
+	7450 4600 7350 4600
+Wire Wire Line
+	7350 4600 7350 5350
+Wire Wire Line
+	7350 5350 7600 5350
+Wire Wire Line
+	7600 5050 7350 5050
+Connection ~ 7350 5050
+Wire Wire Line
+	8050 4500 8300 4500
+Wire Wire Line
+	7800 5050 8100 5050
+Wire Wire Line
+	8100 5050 8100 4500
+Connection ~ 8100 4500
+Wire Wire Line
+	8650 5350 7800 5350
+Wire Wire Line
+	8650 2550 8500 2550
+Connection ~ 8650 3400
+Wire Wire Line
+	8650 4500 8500 4500
+Connection ~ 8650 4500
+Wire Wire Line
+	8650 3550 9050 3550
+Connection ~ 8650 3550
+Wire Wire Line
+	8650 4250 9050 4250
+Connection ~ 8650 4250
+Wire Wire Line
+	8650 4000 8650 5350
+Text HLabel 9050 4250 2    60   Input ~ 0
+ADC_B+
+Text HLabel 9050 3550 2    60   Input ~ 0
+ADC_B-
+Text HLabel 5950 4400 0    60   Input ~ 0
+IN_B+
+Text HLabel 5950 2450 0    60   Input ~ 0
+IN_B-
+Text HLabel 1950 1150 1    60   Input ~ 0
+VA
+Text HLabel 2250 1650 3    60   Input ~ 0
+GNDA
+Text Label 7050 2900 0    60   ~ 0
+VQ
+Text Label 3150 2900 0    60   ~ 0
+VQ
+Text HLabel 2650 1150 1    60   Input ~ 0
+VQ
+$Comp
+L VA #PWR9
+U 1 1 565D8FF3
+P 2150 1150
+AR Path="/565D7D19/565D8FF3" Ref="#PWR9"  Part="1" 
+AR Path="/565D7E0D/565D8FF3" Ref="#PWR11"  Part="1" 
+AR Path="/565D9A70/565D8FF3" Ref="#PWR10"  Part="1" 
+F 0 "#PWR11" H 2150 1000 50  0001 C CNN
+F 1 "VA" H 2150 1300 50  0000 C CNN
+F 2 "" H 2150 1150 60  0000 C CNN
+F 3 "" H 2150 1150 60  0000 C CNN
+	1    2150 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR21
+U 1 1 565D9240
+P 2550 1650
+AR Path="/565D7D19/565D9240" Ref="#PWR21"  Part="1" 
+AR Path="/565D7E0D/565D9240" Ref="#PWR20"  Part="1" 
+AR Path="/565D9A70/565D9240" Ref="#PWR22"  Part="1" 
+F 0 "#PWR22" H 2550 1400 50  0001 C CNN
+F 1 "GNDA" H 2550 1500 50  0000 C CNN
+F 2 "" H 2550 1650 60  0000 C CNN
+F 3 "" H 2550 1650 60  0000 C CNN
+	1    2550 1650
+	1    0    0    -1  
+$EndComp
+Text Label 2900 1150 1    60   ~ 0
+VQ
+Wire Wire Line
+	2550 1650 2550 1600
+Wire Wire Line
+	2550 1600 2250 1600
+Wire Wire Line
+	2250 1600 2250 1650
+Wire Wire Line
+	2150 1150 2150 1200
+Wire Wire Line
+	2150 1200 1950 1200
+Wire Wire Line
+	1950 1200 1950 1150
+Wire Wire Line
+	2650 1150 2650 1200
+Wire Wire Line
+	2650 1200 2900 1200
+Wire Wire Line
+	2900 1200 2900 1150
+$Comp
+L C_Small C34
+U 1 1 566002FD
+P 4450 2000
+AR Path="/565D7D19/566002FD" Ref="C34"  Part="1" 
+AR Path="/565D7E0D/566002FD" Ref="C33"  Part="1" 
+AR Path="/565D9A70/566002FD" Ref="C35"  Part="1" 
+F 0 "C34" H 4460 2070 50  0000 L CNN
+F 1 "10nF" H 4460 1920 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4450 2000 60  0001 C CNN
+F 3 "" H 4450 2000 60  0000 C CNN
+F 4 "GRM188R71H103KA01D" H 4050 2000 60  0001 C CNN "Pt. Num"
+F 5 "Value" H 4450 2000 60  0001 C CNN "manufacturer"
+	1    4450 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 1800 3800 2250
+Wire Wire Line
+	4150 2100 4150 2200
+Wire Wire Line
+	4150 2150 4450 2150
+Wire Wire Line
+	4450 2150 4450 2100
+Connection ~ 4150 2150
+Wire Wire Line
+	4450 1900 4450 1850
+Wire Wire Line
+	4450 1850 3800 1850
+Connection ~ 3800 1850
+Wire Wire Line
+	4150 1900 4150 1850
+Connection ~ 4150 1850
+$Comp
+L TEST W11
+U 1 1 5664997B
+P 5000 3900
+AR Path="/565D7D19/5664997B" Ref="W11"  Part="1" 
+AR Path="/565D7E0D/5664997B" Ref="W12"  Part="1" 
+AR Path="/565D9A70/5664997B" Ref="W10"  Part="1" 
+F 0 "W12" H 5000 3960 50  0000 C CNN
+F 1 "TEST" H 5000 3830 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 5000 3900 50  0001 C CNN
+F 3 "" H 5000 3900 50  0000 C CNN
+	1    5000 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST W16
+U 1 1 56649AFD
+P 8900 3900
+AR Path="/565D7D19/56649AFD" Ref="W16"  Part="1" 
+AR Path="/565D7E0D/56649AFD" Ref="W18"  Part="1" 
+AR Path="/565D9A70/56649AFD" Ref="W17"  Part="1" 
+F 0 "W17" H 8900 3960 50  0000 C CNN
+F 1 "TEST" H 8900 3830 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 8900 3900 50  0001 C CNN
+F 3 "" H 8900 3900 50  0000 C CNN
+	1    8900 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 3700 8900 3550
+Connection ~ 8900 3550
+Wire Wire Line
+	8900 4100 8900 4250
+Connection ~ 8900 4250
+Wire Wire Line
+	5000 3700 5000 3550
+Connection ~ 5000 3550
+Wire Wire Line
+	5000 4100 5000 4250
+Connection ~ 5000 4250
+Wire Wire Line
+	2450 4750 2450 4800
+$Comp
+L CP1_Small C3
+U 1 1 56628396
+P 2700 2450
+AR Path="/565D7D19/56628396" Ref="C3"  Part="1" 
+AR Path="/565D7E0D/56628396" Ref="C4"  Part="1" 
+AR Path="/565D9A70/56628396" Ref="C5"  Part="1" 
+F 0 "C4" H 2710 2520 50  0000 L CNN
+F 1 "10uF" H 2710 2370 50  0000 L CNN
+F 2 "Capacitors_SMD:c_elec_4x4.5" H 2700 2450 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/293/e-wj-18973.pdf" H 2700 2450 60  0001 C CNN
+F 4 "UWJ1C100MCL1GB" H 2350 2450 60  0001 C CNN "Pt. Num"
+F 5 "Nichicon" H 2700 2450 60  0001 C CNN "manufacturer"
+F 6 "Aluminum Electrolytic Capacitors - SMD 16volts 10uF 4x5.4" H 2700 2450 60  0001 C CNN "Description"
+	1    2700 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 4050 3050 4400
+Connection ~ 3050 2900
+Connection ~ 6950 2900
+Wire Wire Line
+	6950 3900 6950 4400
+$EndSCHEMATC
