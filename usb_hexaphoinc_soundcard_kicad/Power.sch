@@ -1074,4 +1074,6 @@ Text Notes 6700 4600 0    60   ~ 0
 3.3V
 Text Notes 5550 7400 0    60   ~ 0
 1V
+Text Notes 7300 3700 0    60   ~ 0
+------------- CHECK ME ------------\nCan we be sure GT_1V is good by now?\n- Adjust U9, C51 delay ?\n- Add voltge detector to GT_1V and wired-and it with 3.3V_GOOD ?\n- Maybe add a voltage detector to GT_5V and wired-and \n   it with 3.3V_GOOD or 1V_GOOD (and change net-names to \n   PG1, PG2 or something.
 $EndSCHEMATC
